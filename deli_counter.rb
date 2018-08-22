@@ -6,6 +6,7 @@ def line(katz_deli)
     katz_deli.each_index do |i|
       line = "#{i + 1}. #{katz_deli[i]} "
     end
+    puts line
     line 
   end
 end

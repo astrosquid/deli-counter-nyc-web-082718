@@ -1,3 +1,5 @@
+require 'pry'
+
 def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty." 
@@ -6,6 +8,7 @@ def line(katz_deli)
     katz_deli.each_index do |i|
       line = "#{i + 1}. #{katz_deli[i]} "
     end
+    binding.pry
     puts line
     line 
   end

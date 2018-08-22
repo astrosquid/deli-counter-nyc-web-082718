@@ -3,8 +3,10 @@ def line(katz_deli)
     puts "The line is currently empty." 
   else 
     line = ""
-    katz_deli.each do |name|
-      line += "#{"
+    katz_deli.each_index do |i|
+      line += "#{i + 1}. #{katz_deli[i] "
+    end
+    line 
 end
 
 def take_a_number(katz_deli, name)

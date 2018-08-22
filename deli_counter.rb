@@ -1,5 +1,10 @@
 def line(katz_deli)
-  puts "The line is currently empty." if katz_deli.empty?
+  if katz_deli.empty?
+    puts "The line is currently empty." 
+  else 
+    line = ""
+    katz_deli.each do |name|
+      line += "#{"
 end
 
 def take_a_number(katz_deli, name)

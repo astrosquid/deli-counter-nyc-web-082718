@@ -4,7 +4,7 @@ def line(katz_deli)
   else 
     line = ""
     katz_deli.each_index do |i|
-      line = "#{i + 1}. #{katz_deli[i] "
+      line = "#{i + 1}. #{katz_deli[i]} "
     end
     line 
   end

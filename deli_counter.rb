@@ -7,6 +7,7 @@ def line(katz_deli)
       line = "#{i + 1}. #{katz_deli[i] "
     end
     line 
+  end
 end
 
 def take_a_number(katz_deli, name)
